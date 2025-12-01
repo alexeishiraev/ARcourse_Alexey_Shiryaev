@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &569946228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
+  m_PrefabInstance: {fileID: 647060335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &647060335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137,6 +142,10 @@ PrefabInstance:
     - target: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
       propertyPath: m_Name
       value: Floors (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984229262743183843, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -377,6 +386,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1226343474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
+  m_PrefabInstance: {fileID: 7139481321285058232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1743512349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -434,6 +448,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7941c7d4078b62749ab340cad00162bb, type: 3}
+--- !u!1 &1949950138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949950140}
+  - component: {fileID: 1949950139}
+  m_Layer: 0
+  m_Name: ScriptCreateObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1949950139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949950138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb72890b2ed81f4abaa29e6763db50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myInt: 100
+  myFloat: 0
+  myString: Hello
+  _isOnScene: 0
+  myVector: {x: 0, y: 0, z: 0}
+  myColor: {r: 0, g: 0, b: 0, a: 0}
+  objectsList:
+  - {fileID: 1226343474}
+  - {fileID: 569946228}
+  prefabToScene: {fileID: 5096864529744576703, guid: e4390e521234d4b5dbcdfa9fe4b8003c, type: 3}
+--- !u!4 &1949950140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949950138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3813477, y: -3.2701497, z: 1.5192719}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5394831337182072151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,6 +568,10 @@ PrefabInstance:
     - target: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
       propertyPath: m_Name
       value: Floors
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196120599411041256, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4601000421193356631, guid: 2c76312ce99a3bd40ab3e745bd958c27, type: 3}
       propertyPath: m_RootOrder
