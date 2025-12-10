@@ -12,6 +12,7 @@ public class StartGame : MonoBehaviour
     [SerializeField] private Vector3 myVector;
     [SerializeField] private Color myColor;
 
+
     // Коллекция
     [SerializeField] private List<GameObject> objectsList;
 
